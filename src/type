@@ -1,0 +1,18 @@
+mob.c:100:  dist = get_dist_btw(player, mob->pos);
+mob.c:103:      dir.x = (player.x - mob->pos.x) / dist;
+mob.c:104:      dir.y = (player.y - mob->pos.y) / dist;
+mob.c:108:  mob->pos.x += dir.x / 2;
+mob.c:109:  mob->pos.y += dir.y / 2;
+mob_utils.c:18:  if (mob->draw == gif.x * gif.y)
+mob_utils.c:19:    mob->draw = 0;
+mob_utils.c:20:  nb = mob->draw / gif.y;
+mob_utils.c:25:  mob->draw = mob->draw + 1;
+mob_utils.c:26:  mob->draw_ = 1;
+fire_bird.c:16:  mob->type = -1;
+draw_mob.c:27:			   vector2f(mob->pos.x - 70, mob->pos.y - 70));
+draw_mob.c:37:			   vector2f(mob->pos.x - 70, mob->pos.y - 70));
+draw_mob.c:48:  if ((dist = get_dist_btw(explo->player->pos, mob->pos)) != 0)
+draw_mob.c:50:      dir.x = (explo->player->pos.x - mob->pos.x) / dist;
+draw_mob.c:51:      dir.y = (explo->player->pos.y - mob->pos.y) / dist;
+draw_laser_tower.c:62:		    - mob->pos.x) / dist,
+draw_laser_tower.c:64:		    - mob->pos.y) / dist);
